@@ -14,5 +14,4 @@ RUN pip install --no-cache-dir --upgrade pip \
 
 ENV COOKIES_FILE_PATH="/app/youtube_cookies.txt"
 
-# Sirf bot run karega
 CMD ["python3", "main.py"]
