@@ -1,7 +1,8 @@
-FROM python:3.10.8-slim-buster
+FROM python:3.13.1-slim-buster
 
 RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends gcc libffi-dev ffmpeg aria2 python3-pip \
+    && apt-get install -y --no-install-recommends \
+        gcc libffi-dev ffmpeg aria2 python3-pip mediainfo libcurl4-openssl-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
