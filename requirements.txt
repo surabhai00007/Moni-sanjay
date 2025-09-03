@@ -21,7 +21,6 @@ motor
 aiohttp
 aiofiles
 pytz
-ffmpeg
 umongo==3.1.0
 speedtest-cli
 Flask==1.1.2
@@ -31,10 +30,5 @@ uvicorn
 Jinja2==3.0.3
 werkzeug==2.0.2
 itsdangerous==2.0.1
-ffprobe
-youtube-dl
-mediainfo
-aria2
-pycurl
-bs4
 pytube
+youtube-dl
